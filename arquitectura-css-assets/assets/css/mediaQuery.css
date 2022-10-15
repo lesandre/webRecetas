@@ -1,0 +1,46 @@
+@media screen and (min-width: 0){
+    .header{
+        justify-content: center;
+        padding: 0 1rem;
+    }
+
+}
+@media screen and (min-width: 768px){
+    .header{
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+
+}
+@media screen and (min-width: 0){
+    .header__logo{
+        display: none;
+    }
+
+}
+@media screen and (min-width: 768px){
+    .header__logo{
+        display: block;
+    }
+
+}
+@media screen and (min-width: 0){
+    .banner__img{
+        height: calc(100vh - 51px);
+    }
+}
+@media screen and (min-width: 768px){
+    .banner__img{
+        height: calc(100vh - 72px);
+    }
+}
+@media screen and (min-width: 0){
+    .banner__title{
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .banner__title{
+        font-size: 5.0625rem;
+    }
+}
